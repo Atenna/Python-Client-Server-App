@@ -27,7 +27,7 @@ class worker(Thread):
                 break
             else:
                 tMessage.insert(END, time.strftime("%H:%M:%S", time.gmtime()) + '  ' + data + '\r\n')
-                clientSocket.send(data + " from IvanaLieskovska\r\n")
+                clientSocket.send(data + " from server\r\n")
                 time.sleep(1)
 
 def startApplication():
