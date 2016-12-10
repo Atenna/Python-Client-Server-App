@@ -3,8 +3,7 @@ Python 2.7 implementation of client-server communication using TCP/IP sockets &a
 
 ## How it works
 
-Client writes messages to Server
-Server receives a message and send it back with appended text "from server"
+Client writes messages to Server. Server receives a message and send it back with appended text "from server".
 
 ![alt tag](https://github.com/Atenna/Python-Client-Server-App/blob/master/img/clientServer.PNG)
 
